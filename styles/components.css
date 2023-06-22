@@ -374,7 +374,7 @@ form input[type="checkbox"] {
 }
 
 .steps > li.is-text-only p{
-    max-width: calc(var(--max-content-width) * 0.5);
+    max-width: calc(var(--max-width-content) * 0.5);
 }
 
 .steps > li figure{
@@ -386,6 +386,7 @@ form input[type="checkbox"] {
 }
 
 .steps > li figure > *{
+    width: 50%;
     flex-basis: 50%;
     flex-grow: 1;
 }
@@ -409,4 +410,6 @@ form input[type="checkbox"] {
     font-weight: bold;
     line-height: var(--xl);
 }
+
+
 
